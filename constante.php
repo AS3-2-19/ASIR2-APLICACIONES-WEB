@@ -1,4 +1,7 @@
 <?php
-define("GREETING", "Welcome to W3Schools.com!");
-echo GREETING;
+$t = date("H");
+
+if ($t < "20") {
+    echo "Have a good day!";
+}
 ?>
