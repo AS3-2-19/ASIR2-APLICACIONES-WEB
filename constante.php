@@ -1,7 +1,10 @@
 <?php
 $t = date("H");
 
-if ($t < "20") {
-    echo "Have a good day!";
+if ($t < "20") // si "$t" es menor que dos
+{
+    echo "Have a good day!"; //si el if es true imprimira el echo
+}else {
+    echo "have a bad day";
 }
 ?>
