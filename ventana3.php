@@ -70,5 +70,8 @@ while($row = mysqli_fetch_array($result)){
 }//aqui termina el while
 ?>
 </table>
+        <form action="paginaupdate.php" method="POST">
+            <input type="submit" value="insert">
+        </form> 
 </body>
 </html>

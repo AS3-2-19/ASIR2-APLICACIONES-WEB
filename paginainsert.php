@@ -20,18 +20,14 @@ if (!$conn)
   {
   die("Conexion fallida: " . mysqli_connect_error());
   }
-  //echo "Conexion creada";
-
-  //leer informacion del formulario
-$user = $_POST['user'];
-echo $user;
 ?>
-<body>
 <html>
-<form action="paginaupdate2.php" method="POST">
-<input type="hidden" name="user" value="<?php  echo $user ?>">
-<input type="password" name="password">
-<input type="submit" value="update">
-</form> 
-</body>
+    
+    <body>
+        <form action="paginainsert2.php" method="POST">
+        nombre de usuario:   <input type="text" name="user">
+        contraseña:   <input type="password" name="contrasena">
+            <input type="submit" value="insert">
+        </form> 
+    </body>
 </html>
