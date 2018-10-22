@@ -54,7 +54,7 @@ while($row = mysqli_fetch_array($result)){
         <?php echo $row[0] ?>:
     </td>
     <td> <!--boton de borrrar y llamo al archivo deleteuser.php-->
-        <form action="deleteuser.php" method="POST">
+        <form action="paginadelete.php" method="POST">
             <input type="hidden" name="user" value="<?php echo $row[0] ?>">
             <input type="submit" value="delete">
         </form>
