@@ -60,7 +60,7 @@ while($row = mysqli_fetch_array($result)){
         </form>
     </td>
     <td> <!--boton de actualizar-->
-        <form action="updateuser.php" method="POST">
+        <form action="paginaupdate.php" method="POST">
             <input type="hidden" name="user" value="<?php  echo$row[0] ?>">
             <input type="submit" value="update">
         </form> 

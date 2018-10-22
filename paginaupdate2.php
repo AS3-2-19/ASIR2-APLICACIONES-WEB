@@ -30,4 +30,4 @@ $query = "UPDATE usuarios SET Contrasena= '$pass' WHERE Nombre ='$user'";
 //echo $query;
 //jugamos con el result
 $result = mysqli_query($conn, $query);
-header('Location: '."Login_2.php");
+header('Location: '."ventana3.php");
