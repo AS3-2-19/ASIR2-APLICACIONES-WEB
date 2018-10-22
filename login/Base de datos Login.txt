@@ -1,0 +1,10 @@
+DROP DATABASE Usuario;
+CREATE DATABASE Usuario;
+
+USE Usuario;
+CREATE TABLE Usuarios (
+	Nombre VARCHAR(20),
+	Contrasena VARCHAR(20)
+);
+
+INSERT INTO `Usuarios` VALUES ('Jonathan','123456789'),('Andoni','1234567890'),('Mikel','1234567891'),('Ekaitz','1234567892');
