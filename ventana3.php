@@ -41,7 +41,7 @@ $result = mysqli_query($conn, $query);
         text-align: left;
         padding: 8px;
     }
-    tr:nth-child(even) {background-color: #FF00FF ;}   
+    tr:nth-child(even) {background-color: BLUE ;}   
 </style><!-- termina el diseño css-->
 </head>
 <table border=0>
