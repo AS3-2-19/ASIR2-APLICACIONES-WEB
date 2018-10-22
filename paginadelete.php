@@ -9,7 +9,7 @@
 $servername = "localhost:3307";
 $username = "root";
 $password ="";
-$db ="usuario";
+$db ="usuarios";
 
 //crear conexion
 
